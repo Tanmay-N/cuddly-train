@@ -7,8 +7,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
-    targetRevision: HEAD
+    repoURL: https://github.com/Tanmay-N/cuddly-train.git
+    targetRevision: master
     path: dev
   destination: 
     server: https://kubernetes.default.svc
